@@ -27,12 +27,6 @@ namespace DrumSharp
             snd.Play();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-         System.IO.Stream str = Properties.Resources.HatCl;
-         System.Media.SoundPlayer snd = new System.Media.SoundPlayer(str);
-         snd.Play();
-        }
 
 
     }
